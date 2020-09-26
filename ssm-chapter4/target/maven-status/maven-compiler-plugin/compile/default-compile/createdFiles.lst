@@ -1,0 +1,15 @@
+com/learn/ssm/chapter4/transaction/MyTransactionFactory.class
+com/learn/ssm/chapter4/mapper/TestFileMapper.class
+com/learn/ssm/chapter4/pojo/Role.class
+com/learn/ssm/chapter4/util/SqlSessionFactoryUtils.class
+com/learn/ssm/chapter4/typeHandle/SexEnumTypeHandler.class
+com/learn/ssm/chapter4/objectfactory/MyObjectFactory.class
+com/learn/ssm/chapter4/pojo/TestFile.class
+com/learn/ssm/chapter4/transaction/MyTransaction.class
+com/learn/ssm/chapter4/mapper/RoleMapper.class
+com/learn/ssm/chapter4/myEnum/SexEnum.class
+com/learn/ssm/chapter4/typeHandle/MyTypeHandler.class
+com/learn/ssm/chapter4/pojo/User.class
+com/learn/ssm/chapter4/mapper/UserMapper.class
+com/learn/ssm/chapter4/main/Chapter4Main.class
+com/learn/ssm/chapter4/databaseidprovider/MyDatabaseIdProvider.class

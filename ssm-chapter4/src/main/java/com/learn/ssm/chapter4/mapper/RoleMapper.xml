@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.learn.ssm.chapter4.mapper.RoleMapper">
+
+    <resultMap id="roleMapper" type="Role">
+        <id property="id" column="id"/>
+        <result property="roleName" column="role_name" />
+        <result property="note" column="note" />
+    </resultMap>
+
+    <insert id="insertRole" parameterType="Role">
+        INSERT INTO t_role(role_name,note) values(#{roleName},#{note})
+    </insert>
+    <delete id="deleteRole" parameterType="long">
+        delete from t_role where id = #{id}
+    </delete>
+    <update id="updateRole" parameterType="Role">
+        update t_role set role_name =#{roleName},note=#{note} where id = #{id}
+    </update>
+    <select id="getRole" parameterType="long" resultMap="roleMapper" databaseId="mysql">
+        select id,role_name ,note from t_role where 1=1 and id =#{id}
+    </select>
+    <select id="getRole" parameterType="long" resultMap="roleMapper" databaseId="oracle">
+        select id,role_name ,note from t_role where id =#{id}
+    </select>
+    <select id="findRoles" parameterType="string" resultMap="roleMapper">
+        select id,role_name as roleName,note from t_role where role_name
+        like  concat('%', #{roleName },'%')
+    </select>
+    <select id="findRoles2" parameterType="string" resultMap="roleMapper">
+        select id,role_name as roleName,note from t_role where note
+        like concat('%', #{node},'%')
+    </select>
+</mapper>
