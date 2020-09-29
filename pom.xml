@@ -23,6 +23,7 @@
         <module>ssm-chapter11</module>
         <module>ssm-chapter12</module>
         <module>ssm-chapter13</module>
+        <module>ssm-chapter14</module>
     </modules>
     <build>
         <plugins>

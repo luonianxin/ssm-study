@@ -11,4 +11,5 @@ public class Role {
     private String note;
     private Date createDate;
 
+
 }
