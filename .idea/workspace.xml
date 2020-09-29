@@ -4,22 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f6b4e2b-86cd-4f21-bb5e-b54cfd782dcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssm-chapter13/src/main/java/com/learn/ssm/chapter13/main/TestChapter13Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter13/src/main/java/com/learn/ssm/chapter13/mapperXML/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter13/src/main/java/com/learn/ssm/chapter13/service/RoleListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter13/src/main/java/com/learn/ssm/chapter13/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter13/src/main/java/com/learn/ssm/chapter13/service/impl/RoleListServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter13/src/main/java/com/learn/ssm/chapter13/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter13/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter13/src/main/resources/mybatis/mybatis-cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter13/src/test/java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter14/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-chapter13/src/main/java/com/learn/ssm/chapter13/pojo/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-chapter13/src/main/java/com/learn/ssm/chapter13/pojo/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-chapter13/src/main/java/com/learn/ssm/chapter13/transaction/config/com/learn/ssm/chapter13/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-chapter13/src/main/java/com/learn/ssm/chapter13/mapper/RoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-chapter13/src/main/resources/spring-cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-chapter13/src/main/resources/spring-cfg.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0f6b4e2b-86cd-4f21-bb5e-b54cfd782dcd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -318,7 +303,7 @@
       <workItem from="1601254012825" duration="11221000" />
       <workItem from="1601366029606" duration="33000" />
       <workItem from="1601366521160" duration="1850000" />
-      <workItem from="1601385065351" duration="771000" />
+      <workItem from="1601385065351" duration="1200000" />
     </task>
     <servers />
   </component>
