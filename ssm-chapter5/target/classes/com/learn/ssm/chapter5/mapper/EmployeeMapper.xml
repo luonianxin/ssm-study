@@ -29,7 +29,7 @@
         <association property="maleHealthForm" column="id"
                      select="com.learn.ssm.chapter5.mapper.MaleHealthFormMapper.getMaleHealthForm"/>
     </resultMap>
-    <select id="getEmployeeTaskByEmpId" resultMap="employee" parameterType="long" >
+    <select id="getEmployeeTaskByEmpId" resultMap="employee" parameterType="long"  >
         select id,real_name , sex,birthday,mobile,email,position,note from t_employee
         where id = #{id}
     </select>
