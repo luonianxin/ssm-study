@@ -10,7 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>ssm-chapter15</artifactId>
-    <packaging>war</packaging>
+    <packaging>war
+    </packaging>
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
