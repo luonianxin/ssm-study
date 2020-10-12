@@ -1,0 +1,9 @@
+/home/lnx/IdeaProjects/ssm-study/ssm-chapter15/src/main/java/com/learn/ssm/chapter15/annotationConfigServlet/MyApplicationInitializer.java
+/home/lnx/IdeaProjects/ssm-study/ssm-chapter15/src/main/java/com/learn/ssm/chapter15/mapper/RoleMapper.java
+/home/lnx/IdeaProjects/ssm-study/ssm-chapter15/src/main/java/com/learn/ssm/chapter15/controller/MyController.java
+/home/lnx/IdeaProjects/ssm-study/ssm-chapter15/src/main/java/com/learn/ssm/chapter15/controller/ParamController.java
+/home/lnx/IdeaProjects/ssm-study/ssm-chapter15/src/main/java/com/learn/ssm/chapter15/service/impl/RoleServiceImpl.java
+/home/lnx/IdeaProjects/ssm-study/ssm-chapter15/src/main/java/com/learn/ssm/chapter15/service/RoleService.java
+/home/lnx/IdeaProjects/ssm-study/ssm-chapter15/src/main/java/com/learn/ssm/chapter15/pojo/Role.java
+/home/lnx/IdeaProjects/ssm-study/ssm-chapter15/src/main/java/com/learn/ssm/chapter15/pojo/RoleParams.java
+/home/lnx/IdeaProjects/ssm-study/ssm-chapter15/src/main/java/com/learn/ssm/chapter15/annotationConfigServlet/serletConfig/WebConfig.java

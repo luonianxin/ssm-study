@@ -1,0 +1,9 @@
+com/learn/ssm/chapter15/service/RoleService.class
+com/learn/ssm/chapter15/controller/ParamController.class
+com/learn/ssm/chapter15/pojo/RoleParams.class
+com/learn/ssm/chapter15/pojo/Role.class
+com/learn/ssm/chapter15/mapper/RoleMapper.class
+com/learn/ssm/chapter15/annotationConfigServlet/MyApplicationInitializer.class
+com/learn/ssm/chapter15/annotationConfigServlet/serletConfig/WebConfig.class
+com/learn/ssm/chapter15/service/impl/RoleServiceImpl.class
+com/learn/ssm/chapter15/controller/MyController.class
