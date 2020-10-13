@@ -14,6 +14,10 @@
 <h1 align="center">
     hello spring mvc
 </h1>
-
+<%
+    request.setAttribute("id",100L);
+    request.getRequestDispatcher("/attributes/requestAttributes.do")
+            .forward(request,response);
+%>
 </body>
 </html>

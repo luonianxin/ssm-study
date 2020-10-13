@@ -12,6 +12,21 @@
     <mvc:default-servlet-handler/>
     <!--  使用注解驱动 -->
     <mvc:annotation-driven/>
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/role/*.do"/>
+            <bean class="com.learn.ssm.chapter15.interceptor.RoleInterceptor1"/>
+        </mvc:interceptor>
+        <mvc:interceptor>
+            <mvc:mapping path="/role/*.do"/>
+            <bean class="com.learn.ssm.chapter15.interceptor.RoleInterceptor2"/>
+        </mvc:interceptor>
+        <mvc:interceptor>
+            <mvc:mapping path="/role/*.do"/>
+            <bean class="com.learn.ssm.chapter15.interceptor.RoleInterceptor3"/>
+        </mvc:interceptor>
+
+    </mvc:interceptors>
     <context:component-scan base-package="com.*"/>
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/"/>

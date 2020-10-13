@@ -6,14 +6,14 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class RoleInterceptor extends HandlerInterceptorAdapter {
+public class RoleInterceptor1 extends HandlerInterceptorAdapter {
 
 
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
 
-        System.err.println("preHandler");
+        System.err.println("preHandler１");
         return true;
     }
 
@@ -21,12 +21,12 @@ public class RoleInterceptor extends HandlerInterceptorAdapter {
 
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
-        System.err.println("postHandler");
+        System.err.println("postHandler１");
     }
 
 
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
-        System.err.println("afterCompletion");
+        System.err.println("afterCompletion１");
     }
 }

@@ -109,6 +109,13 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.10.0</version>
         </dependency>
+
+        <!--后端加入JSR303校验 -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>6.1.0.Final</version>
+        </dependency>
     </dependencies>
     <!--
           指定maven　编译插件版本,指定编译规则包含xml文件

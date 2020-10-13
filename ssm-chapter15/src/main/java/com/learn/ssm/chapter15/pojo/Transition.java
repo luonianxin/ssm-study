@@ -10,7 +10,7 @@ import java.util.Date;
  * 　验证表单字段 jsr３０３校验用的bean名称
  */
 @Data
-public class Transaction {
+public class Transition {
     @NotNull(message = "产品编号不能为空")
     private Long productId;
     @NotNull(message = "用户编号不能为空")

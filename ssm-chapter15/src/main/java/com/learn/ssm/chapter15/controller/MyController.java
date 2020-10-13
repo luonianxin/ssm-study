@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.view.json.MappingJackson2JsonView;
 
 @Controller("myController")
-@RequestMapping("/my")
+@RequestMapping("/role")
 public class MyController {
     @Autowired
    private RoleService roleService;

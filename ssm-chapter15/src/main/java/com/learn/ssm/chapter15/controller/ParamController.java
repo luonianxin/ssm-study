@@ -6,10 +6,7 @@ import com.learn.ssm.chapter15.service.RoleListService;
 import com.learn.ssm.chapter15.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.view.json.MappingJackson2JsonView;
 
@@ -48,6 +45,18 @@ public class ParamController {
     public ModelAndView commonParamPojo(RoleParams roleParams){
         System.out.println("role name param==> "+roleParams.getRoleName());
         System.out.println("note param==> "+roleParams.getNote());
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("index");
+        return mv;
+    }
+
+    /**
+     *  使用ｐｏｊｏ来传递参数
+     */
+    @RequestMapping(value = "/commonPojo2",method = RequestMethod.POST)
+    public ModelAndView commonParamPojo2(String roleName, String note){
+        System.out.println("role name param==> "+ roleName);
+        System.out.println("note param==> "+ note);
         ModelAndView mv = new ModelAndView();
         mv.setViewName("index");
         return mv;
