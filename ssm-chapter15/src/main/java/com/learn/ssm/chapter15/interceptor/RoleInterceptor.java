@@ -1,5 +1,6 @@
 package com.learn.ssm.chapter15.interceptor;
 
+import org.springframework.validation.support.BindingAwareModelMap;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
@@ -7,7 +8,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class RoleInterceptor extends HandlerInterceptorAdapter {
-
 
 
     @Override

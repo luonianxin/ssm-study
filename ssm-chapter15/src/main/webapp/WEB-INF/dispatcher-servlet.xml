@@ -12,6 +12,8 @@
     <mvc:default-servlet-handler/>
     <!--  使用注解驱动 -->
     <mvc:annotation-driven/>
+
+
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/role/*.do"/>

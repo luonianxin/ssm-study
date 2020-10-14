@@ -26,7 +26,7 @@
     <!-- 继承ｍｙｂａｔｉｓ -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="pooledDataSource"/>
-        <property name="configLocation" value="classpath:conf/mybatis-config.xml"/>
+        <property name="configLocation" value="classpath:myConfig/mybatis-config.xml"/>
     </bean>
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="pooledDataSource"/>
@@ -38,7 +38,9 @@
         <property name="SqlSessionFactoryBeanName" value="sqlSessionFactory"/>
         <property name="annotationClass" value="org.springframework.stereotype.Repository"/>
     </bean>
-
+    <bean id="multipartResolver" class="org.springframework.web.multipart.support.StandardServletMultipartResolver">
+        <property name="resolveLazily" value="true"/>
+    </bean>
 
     <tx:annotation-driven/>
 </beans>

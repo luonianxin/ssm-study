@@ -2,6 +2,8 @@ package com.learn.ssm.chapter15.pojo;
 
 import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.servlet.mvc.Controller;
 
 import javax.validation.constraints.*;
 import java.util.Date;
@@ -11,6 +13,7 @@ import java.util.Date;
  */
 @Data
 public class Transaction {
+
     @NotNull(message = "产品编号不能为空")
     private Long productId;
     @NotNull(message = "用户编号不能为空")
