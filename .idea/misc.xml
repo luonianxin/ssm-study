@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/ssm-chapter14" />
     <file type="web" url="file://$PROJECT_DIR$/ssm-chapter15" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm-chapter16" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -13,6 +14,6 @@
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/ssm-chapter15/src/main/webapp/WEB-INF/classes" />
+    <output url="file://$PROJECT_DIR$/ssm-chapter16/src/main/webapp/WEB-INF/classes" />
   </component>
 </project>

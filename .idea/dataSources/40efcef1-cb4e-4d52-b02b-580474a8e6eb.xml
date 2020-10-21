@@ -1766,7 +1766,7 @@
     </column>
     <column id="417" parent="341" name="note">
       <Position>3</Position>
-      <DataType>varchar(200)|0s</DataType>
+      <DataType>varchar(500)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="418" parent="341" name="create_date">
@@ -1784,138 +1784,147 @@
       <DataType>int(1)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="421" parent="341" name="PRIMARY">
+    <index id="421" parent="341" name="t_role_id_uindex">
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="422" parent="341" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="422" parent="342" name="id">
+    <key id="423" parent="341" name="t_role_id_uindex">
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>t_role_id_uindex</UnderlyingIndexName>
+    </key>
+    <column id="424" parent="342" name="id">
       <Position>1</Position>
       <DataType>int(12)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="423" parent="342" name="title">
+    <column id="425" parent="342" name="title">
       <Position>2</Position>
       <DataType>varchar(60)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="424" parent="342" name="context">
+    <column id="426" parent="342" name="context">
       <Position>3</Position>
       <DataType>varchar(256)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="425" parent="342" name="note">
+    <column id="427" parent="342" name="note">
       <Position>4</Position>
       <DataType>varchar(256)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="426" parent="342" name="PRIMARY">
+    <key id="428" parent="342" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="427" parent="343" name="id">
+    <column id="429" parent="343" name="id">
       <Position>1</Position>
       <Comment>用户编号</Comment>
       <DataType>int(12)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="428" parent="343" name="user_name">
+    <column id="430" parent="343" name="user_name">
       <Position>2</Position>
       <Comment>用户名</Comment>
       <DataType>varchar(60)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="429" parent="343" name="password">
+    <column id="431" parent="343" name="password">
       <Position>3</Position>
       <Comment>密码</Comment>
       <DataType>varchar(60)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="430" parent="343" name="SEX">
+    <column id="432" parent="343" name="SEX">
       <Position>4</Position>
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="431" parent="343" name="mobile">
+    <column id="433" parent="343" name="mobile">
       <Position>5</Position>
       <Comment>手机</Comment>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="432" parent="343" name="tel">
+    <column id="434" parent="343" name="tel">
       <Position>6</Position>
       <Comment>电话</Comment>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="433" parent="343" name="email">
+    <column id="435" parent="343" name="email">
       <Position>7</Position>
       <Comment>邮件</Comment>
       <DataType>varchar(60)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="434" parent="343" name="note">
+    <column id="436" parent="343" name="note">
       <Position>8</Position>
       <Comment>备注</Comment>
       <DataType>varchar(512)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="435" parent="343" name="real_name">
+    <column id="437" parent="343" name="real_name">
       <Position>9</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="436" parent="343" name="PRIMARY">
+    <key id="438" parent="343" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="437" parent="344" name="id">
+    <column id="439" parent="344" name="id">
       <Position>1</Position>
       <Comment>编号</Comment>
       <DataType>int(12)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="438" parent="344" name="user_id">
+    <column id="440" parent="344" name="user_id">
       <Position>2</Position>
       <Comment>用户编号</Comment>
       <DataType>int(12)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="439" parent="344" name="head_image">
+    <column id="441" parent="344" name="head_image">
       <Position>3</Position>
       <Comment>头像</Comment>
       <DataType>varchar(60)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="440" parent="344" name="note">
+    <column id="442" parent="344" name="note">
       <Position>4</Position>
       <Comment>介绍</Comment>
       <DataType>varchar(1024)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="441" parent="344" name="PRIMARY">
+    <key id="443" parent="344" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="442" parent="345" name="id">
+    <column id="444" parent="345" name="id">
       <Position>1</Position>
       <Comment>编号</Comment>
       <DataType>int(12)|0s</DataType>
@@ -1923,88 +1932,88 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="443" parent="345" name="user_id">
+    <column id="445" parent="345" name="user_id">
       <Position>2</Position>
       <Comment>用户编号</Comment>
       <DataType>int(12)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="444" parent="345" name="role_id">
+    <column id="446" parent="345" name="role_id">
       <Position>3</Position>
       <Comment>角色编号</Comment>
       <DataType>int(12)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="445" parent="345" name="role_user_idx">
+    <index id="447" parent="345" name="role_user_idx">
       <ColNames>user_id
 role_id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="446" parent="345" name="PRIMARY">
+    <key id="448" parent="345" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="447" parent="345" name="role_user_idx">
+    <key id="449" parent="345" name="role_user_idx">
       <ColNames>user_id
 role_id</ColNames>
       <UnderlyingIndexName>role_user_idx</UnderlyingIndexName>
     </key>
-    <column id="448" parent="346" name="id">
+    <column id="450" parent="346" name="id">
       <Position>1</Position>
       <DataType>int(12)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="449" parent="346" name="emp_id">
+    <column id="451" parent="346" name="emp_id">
       <Position>2</Position>
       <DataType>int(12)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="450" parent="346" name="real_name">
+    <column id="452" parent="346" name="real_name">
       <Position>3</Position>
       <DataType>varchar(60)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="451" parent="346" name="department">
+    <column id="453" parent="346" name="department">
       <Position>4</Position>
       <DataType>varchar(60)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="452" parent="346" name="mobile">
+    <column id="454" parent="346" name="mobile">
       <Position>5</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="453" parent="346" name="POSITION">
+    <column id="455" parent="346" name="POSITION">
       <Position>6</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="454" parent="346" name="note">
+    <column id="456" parent="346" name="note">
       <Position>7</Position>
       <DataType>varchar(256)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="455" parent="346" name="FK_Reference_7">
+    <index id="457" parent="346" name="FK_Reference_7">
       <ColNames>emp_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="456" parent="346" name="PRIMARY">
+    <key id="458" parent="346" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="457" parent="346" name="FK_Reference_7">
+    <foreign-key id="459" parent="346" name="FK_Reference_7">
       <ColNames>emp_id</ColNames>
       <RefTableName>t_employee</RefTableName>
       <RefColNames>id</RefColNames>

@@ -101,3 +101,21 @@
     </bean>
 </beans>
 ```
+### 使用注解@ResponseBody返回ｊｓｏｎ数据给用户
+**需要配置消息转换器,配置后spring mvc会寻找对应的转换器来转换数据**
+```xml
+  <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+        <property name="messageConverters">
+            <list>
+                <ref bean="jsonConverter"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="jsonConverter" class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+        <property name="supportedMediaTypes">
+            <list>
+                <value>application/json;charset=UTF-8</value>
+            </list>
+        </property>
+    </bean>
+```
