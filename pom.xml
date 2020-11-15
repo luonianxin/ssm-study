@@ -27,6 +27,8 @@
         <module>ssm-chapter14</module>
         <module>ssm-chapter15</module>
         <module>ssm-chapter16</module>
+        <module>ssm-chapter17</module>
+        <module>ssm-chapter18</module>
     </modules>
 <!--    <build>-->
 <!--        <plugins>-->
