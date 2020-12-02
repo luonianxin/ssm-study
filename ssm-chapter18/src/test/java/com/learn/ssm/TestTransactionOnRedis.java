@@ -7,8 +7,12 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.core.RedisOperations;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.SessionCallback;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.ScanParams;
+import redis.clients.jedis.ScanResult;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  *  redis 基础事务 测试
@@ -36,4 +40,19 @@ public class TestTransactionOnRedis {
         String value = (String) template.execute(callback);
         System.err.println(value);
      }
+
+    @Test
+    public void testJedisKeyScan(){
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+        RedisTemplate redisTemplate = ctx.getBean(RedisTemplate.class);
+        for(int i=0; i<1200;i++){
+            redisTemplate.opsForHash().put("hash","hashkeyT"+i,"hashvalueT"+i);
+
+        }
+        Jedis jedis = (Jedis) redisTemplate.getConnectionFactory().getConnection().getNativeConnection();
+        ScanResult<Map.Entry<String,String>> result = jedis.hscan("hash","0",new ScanParams().count(10));
+        for(int i =0; i<result.getResult().size();i++){
+            System.out.println(result.getResult().get(i).getKey());
+        }
+    }
 }

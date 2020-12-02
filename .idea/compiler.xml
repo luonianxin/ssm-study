@@ -8,8 +8,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ssm-chapter18" />
+        <module name="ssm-chapter22" />
+        <module name="ssm-chapter21" />
+        <module name="ssm-chapter20" />
         <module name="ssm-chapter9" />
+        <module name="ssm-chapter10" />
         <module name="ssm-chapter6" />
         <module name="ssm-chapter5" />
         <module name="ssm-chapter4" />
@@ -20,7 +23,7 @@
         <module name="ssm-chapter13" />
         <module name="ssm-chapter12" />
         <module name="ssm-chapter11" />
-        <module name="ssm-chapter10" />
+        <module name="ssm-chapter18" />
         <module name="ssm-chapter17" />
       </profile>
     </annotationProcessing>

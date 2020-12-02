@@ -20,6 +20,7 @@
         <property name="hostName" value="localhost"/>
         <property name="port" value="16379"/>
         <property name="poolConfig" ref="poolConfig"/>
+        <property name="password" value="kongoking"/>
     </bean>
   <bean id = "jdkSerializationRedisSerializer" class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer">
   </bean>
