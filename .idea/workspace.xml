@@ -10,29 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f6b4e2b-86cd-4f21-bb5e-b54cfd782dcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssm-chapter20/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter20/src/main/java/com/learn/ssm/chapter20/RedisSentinelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter20/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter20/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter21/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter21/src/main/java/com/learn/ssm/chapter21/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter21/src/main/java/com/learn/ssm/chapter21/config/RootConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter21/src/main/java/com/learn/ssm/chapter21/dao/RoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter21/src/main/java/com/learn/ssm/chapter21/mapper/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter21/src/main/java/com/learn/ssm/chapter21/pojo/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter21/src/main/java/com/learn/ssm/chapter21/service/RedisTemplateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter21/src/main/java/com/learn/ssm/chapter21/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter21/src/main/java/com/learn/ssm/chapter21/service/impl/RedisTemplateServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter21/src/main/java/com/learn/ssm/chapter21/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter21/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter21/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter21/src/test/java/com/learn/ssm/chapter21/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter22/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-chapter22/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-chapter22/src/main/java/com/learn/ssm/chapter22/dao/RedPacketDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-chapter22/src/main/java/com/learn/ssm/chapter22/dao/UserRedPacketDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-chapter22/src/main/java/com/learn/ssm/chapter22/dao/mapper/RedPacket.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-chapter22/src/main/java/com/learn/ssm/chapter22/dao/mapper/UserRedPacket.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-chapter22/src/main/java/com/learn/ssm/chapter22/pojo/RedPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-chapter22/src/main/java/com/learn/ssm/chapter22/pojo/UserRedPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-chapter22/src/main/java/com/learn/ssm/chapter22/service/RedPacketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-chapter22/src/main/java/com/learn/ssm/chapter22/service/UserRedPacketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-chapter22/src/main/java/com/learn/ssm/chapter22/service/impl/RedPacketServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-chapter22/src/main/java/com/learn/ssm/chapter22/service/impl/UserRedPacketService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-chapter18/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-chapter18/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm-chapter18/src/test/java/com/learn/ssm/TestTransactionOnRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-chapter18/src/test/java/com/learn/ssm/TestTransactionOnRedis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm-chapter22/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-chapter22/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm-chapter22/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-chapter22/src/test/java/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm-chapter22/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/ssm-chapter22/target/test-classes/MyTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +133,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/openclass/【遇见狂神说】贪吃蛇代码/kuangshen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ssm-chapter22/src/main/java/com/learn/ssm/chapter22/dao/mapper" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3816092" />
@@ -152,15 +143,19 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.learn.ssm.chapter11.game" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ssm-chapter21/src/main/java/com/learn/ssm/chapter21/mapper" />
+      <recent name="$PROJECT_DIR$/ssm-chapter16/src/main/resources/new-cfg" />
+      <recent name="$PROJECT_DIR$/ssm-chapter15/src/main/resources/myConfig" />
+      <recent name="$PROJECT_DIR$/ssm-chapter15/src/main/resources/conf" />
+      <recent name="$PROJECT_DIR$/ssm-chapter15/src/main/resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ssm-chapter22/src/main/java/com/learn/ssm/chapter22/dao/mapper" />
       <recent name="$PROJECT_DIR$/ssm-chapter20/src/main/resources" />
       <recent name="$PROJECT_DIR$/ssm-chapter18/src/main/resources" />
       <recent name="$PROJECT_DIR$/ssm-chapter16/src/main/resources" />
       <recent name="$PROJECT_DIR$/ssm-chapter16/target/classes" />
-      <recent name="$PROJECT_DIR$/ssm-chapter16/src/main/java/com/learn/ssm/chapter16" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.learn.ssm.chapter15.pojo" />
@@ -169,12 +164,8 @@
       <recent name="com.learn.ssm.chapter11.aspect" />
       <recent name="com.learn.ssm.chapter10.annotation.pojo" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ssm-chapter21/src/main/java/com/learn/ssm/chapter21/mapper" />
-      <recent name="$PROJECT_DIR$/ssm-chapter16/src/main/resources/new-cfg" />
-      <recent name="$PROJECT_DIR$/ssm-chapter15/src/main/resources/myConfig" />
-      <recent name="$PROJECT_DIR$/ssm-chapter15/src/main/resources/conf" />
-      <recent name="$PROJECT_DIR$/ssm-chapter15/src/main/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.learn.ssm.chapter11.game" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -184,7 +175,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestTransactionOnRedis.testJedisKeyScan">
+  <component name="RunManager" selected="Application.MyTest">
     <configuration name="Chapter12Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.ssm.chapter12.main.Chapter12Main" />
       <module name="ssm-chapter12" />
@@ -199,14 +190,8 @@
       </method>
     </configuration>
     <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.ssm.chapter21.MyTest" />
-      <module name="ssm-chapter21" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.ssm.chapter21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <module name="ssm-chapter22" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,22 +199,6 @@
     <configuration name="Test" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="ssm-chapter13" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.TestCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssm-chapter21" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.ssm.chapter21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.learn.ssm.chapter21" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.ssm.chapter21.MyTest" />
-      <option name="METHOD_NAME" value="TestCache" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -278,6 +247,20 @@
       <option name="MAIN_CLASS_NAME" value="com.learn.ssm.TestTransactionOnRedis" />
       <option name="METHOD_NAME" value="testJedisKeyScan" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.learn.ssm.chapter22.dao in ssm-chapter22" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm-chapter22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.ssm.chapter22.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learn.ssm.chapter22.dao" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -391,19 +374,19 @@
       <item itemvalue="Application.Chapter12Main" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.MyTest" />
-      <item itemvalue="JUnit.MyTest.TestCache" />
       <item itemvalue="JUnit.MyTest.testRedisTemplateService" />
-      <item itemvalue="Tomcat Server.tomcat8.5" />
       <item itemvalue="JUnit.RedisSentinelTest.testJedisKeyScan" />
       <item itemvalue="JUnit.TestTransactionOnRedis.testJedisKeyScan" />
+      <item itemvalue="JUnit.com.learn.ssm.chapter22.dao in ssm-chapter22" />
+      <item itemvalue="Tomcat Server.tomcat8.5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTest" />
+        <item itemvalue="JUnit.com.learn.ssm.chapter22.dao in ssm-chapter22" />
         <item itemvalue="JUnit.TestTransactionOnRedis.testJedisKeyScan" />
         <item itemvalue="JUnit.RedisSentinelTest.testJedisKeyScan" />
         <item itemvalue="JUnit.MyTest.testRedisTemplateService" />
-        <item itemvalue="JUnit.MyTest.TestCache" />
-        <item itemvalue="Application.MyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -552,7 +535,10 @@
       <workItem from="1606218724758" duration="179000" />
       <workItem from="1606286486002" duration="20601000" />
       <workItem from="1606788046679" duration="19000" />
-      <workItem from="1606893482960" duration="2978000" />
+      <workItem from="1606893482960" duration="12269000" />
+      <workItem from="1606957603032" duration="1798000" />
+      <workItem from="1607255497781" duration="614000" />
+      <workItem from="1607311354958" duration="156000" />
     </task>
     <servers />
   </component>
@@ -586,10 +572,14 @@
     </state>
     <state x="382" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1602750545320" />
     <state x="382" y="202" width="1092" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1603183889660" />
-    <state x="768" y="260" width="588" height="627" key="#com.intellij.ide.util.MemberChooser" timestamp="1606469638415">
+    <state x="612" y="348" width="685" height="417" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606903487794">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="768" y="260" width="588" height="627" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1606469638415" />
+    <state x="612" y="348" width="685" height="417" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1606903487794" />
+    <state x="768" y="260" width="588" height="627" key="#com.intellij.ide.util.MemberChooser" timestamp="1606909915117">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="768" y="260" width="588" height="627" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1606909915117" />
     <state x="606" y="214" width="800" height="684" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1601390417726">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -642,50 +632,50 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="555" y="215" width="800" height="684" key="GrepConsoleSettings/0.27.1920.1053@0.27.1920.1053" timestamp="1603194073930" />
-    <state width="1864" height="161" key="GridCell.Tab.0.bottom" timestamp="1606895369862">
+    <state width="1864" height="270" key="GridCell.Tab.0.bottom" timestamp="1607311515797">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1866" height="217" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1602765796585" />
-    <state width="1864" height="161" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606895369862" />
+    <state width="1864" height="270" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1607311515797" />
     <state width="1866" height="211" key="GridCell.Tab.0.bottom/0.29.1920.1051@0.29.1920.1051" timestamp="1604055395020" />
-    <state width="1864" height="161" key="GridCell.Tab.0.center" timestamp="1606895369862">
+    <state width="1864" height="270" key="GridCell.Tab.0.center" timestamp="1607311515796">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1866" height="217" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1602765796585" />
-    <state width="1864" height="161" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606895369862" />
+    <state width="1864" height="270" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1607311515796" />
     <state width="1866" height="211" key="GridCell.Tab.0.center/0.29.1920.1051@0.29.1920.1051" timestamp="1604055395019" />
-    <state width="1864" height="161" key="GridCell.Tab.0.left" timestamp="1606895369861">
+    <state width="1864" height="270" key="GridCell.Tab.0.left" timestamp="1607311515796">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1866" height="217" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1602765796585" />
-    <state width="1864" height="161" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606895369861" />
+    <state width="1864" height="270" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1607311515796" />
     <state width="1866" height="211" key="GridCell.Tab.0.left/0.29.1920.1051@0.29.1920.1051" timestamp="1604055395019" />
-    <state width="1864" height="161" key="GridCell.Tab.0.right" timestamp="1606895369862">
+    <state width="1864" height="270" key="GridCell.Tab.0.right" timestamp="1607311515797">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1866" height="217" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1602765796585" />
-    <state width="1864" height="161" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606895369862" />
+    <state width="1864" height="270" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1607311515797" />
     <state width="1866" height="211" key="GridCell.Tab.0.right/0.29.1920.1051@0.29.1920.1051" timestamp="1604055395019" />
-    <state width="1864" height="260" key="GridCell.Tab.1.bottom" timestamp="1606895127345">
+    <state width="1864" height="260" key="GridCell.Tab.1.bottom" timestamp="1606910363211">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1866" height="409" key="GridCell.Tab.1.bottom/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1602765796576" />
-    <state width="1864" height="260" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606895127345" />
-    <state width="1864" height="260" key="GridCell.Tab.1.center" timestamp="1606895127344">
+    <state width="1864" height="260" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1606910363211" />
+    <state width="1864" height="260" key="GridCell.Tab.1.center" timestamp="1606910363210">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1866" height="409" key="GridCell.Tab.1.center/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1602765796576" />
-    <state width="1864" height="260" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606895127344" />
-    <state width="1864" height="260" key="GridCell.Tab.1.left" timestamp="1606895127344">
+    <state width="1864" height="260" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1606910363210" />
+    <state width="1864" height="260" key="GridCell.Tab.1.left" timestamp="1606910363210">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1866" height="409" key="GridCell.Tab.1.left/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1602765796576" />
-    <state width="1864" height="260" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606895127344" />
-    <state width="1864" height="260" key="GridCell.Tab.1.right" timestamp="1606895127344">
+    <state width="1864" height="260" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1606910363210" />
+    <state width="1864" height="260" key="GridCell.Tab.1.right" timestamp="1606910363211">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1866" height="409" key="GridCell.Tab.1.right/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1602765796576" />
-    <state width="1864" height="260" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606895127344" />
+    <state width="1864" height="260" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1606910363211" />
     <state width="1866" height="55" key="GridCell.Tab.2.bottom" timestamp="1603200945354">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -794,10 +784,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1866" height="217" key="GridCell.Tab.9.right/0.27.1920.1053@0.27.1920.1053" timestamp="1602488549909" />
-    <state x="543" y="287" width="814" height="563" key="IDE.errors.dialog" timestamp="1606570712180">
+    <state x="543" y="287" width="814" height="563" key="IDE.errors.dialog" timestamp="1606900700830">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="543" y="287" width="814" height="563" key="IDE.errors.dialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606570712180" />
+    <state x="543" y="287" width="814" height="563" key="IDE.errors.dialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606900700830" />
     <state x="493" y="231" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1601006441632">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -815,14 +805,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="733" y="331" width="443" height="452" key="chooseDestDirectoryDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602473707383" />
-    <state x="790" y="403" width="374" height="308" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1598445594557">
+    <state x="794" y="276" width="576" height="575" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1606907697882">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="790" y="403" width="374" height="308" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.27.1920.1053@0.27.1920.1053" timestamp="1598445594557" />
-    <state x="1124" y="337" width="552" height="575" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1603195232745">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="1124" y="337" width="552" height="575" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1603195232745" />
+    <state x="794" y="276" width="576" height="575" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1606907697882" />
     <state x="270" y="261" width="1370" height="591" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1603195283294">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -830,7 +816,6 @@
     <state x="613" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1600044338516">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="613" y="362" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598494023499" />
     <state x="613" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600044338516" />
     <state x="726" y="469" width="486" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606894285485">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -846,15 +831,15 @@
     <state x="244" y="245" key="new project wizard/0.27.1920.1053/1920.0.1366.768@0.27.1920.1053" timestamp="1602748024691" />
     <state x="244" y="245" width="1422" height="615" key="new project wizard/0.27.1920.1053@0.27.1920.1053" timestamp="1606560028537" />
     <state x="244" y="247" key="new project wizard/0.29.1920.1051@0.29.1920.1051" timestamp="1604021247741" />
-    <state x="624" y="252" width="672" height="680" key="run.anything.popup" timestamp="1606053182761">
+    <state x="624" y="252" width="672" height="680" key="run.anything.popup" timestamp="1606909890567">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="624" y="252" width="672" height="680" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606053182761" />
+    <state x="624" y="252" width="672" height="680" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606909890567" />
     <state x="624" y="254" width="672" height="679" key="run.anything.popup/0.29.1920.1051@0.29.1920.1051" timestamp="1604053503186" />
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1606052890102">
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1606959885622">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606052890102" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1606959885622" />
     <state x="623" y="259" width="672" height="677" key="search.everywhere.popup/0.29.1920.1051@0.29.1920.1051" timestamp="1604041475839" />
     <state x="608" y="230" width="694" height="644" key="spring file set editor" timestamp="1605624018783">
       <screen x="0" y="27" width="1920" height="1053" />

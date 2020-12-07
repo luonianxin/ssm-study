@@ -129,3 +129,15 @@
    
 </mapper>
 ```
+### mybatis configuration 配置类xml 头部
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <mappers>
+        <mapper resource="com/learn/ssm/chapter16/mapperXML/RoleMapper.xml"/>
+    </mappers>
+</configuration>
+```

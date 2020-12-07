@@ -2,14 +2,12 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.learn.ssm.chapter22.dao.RedPacketDao">
-    <!-- 查询红包具体信息 -->
-    <select id="getRedPacket" parameterType="long">
-        select id,user_id as userId,amount,send_date as sendDate , total, unit_amount as unitAmount, stock, version,note from
-        T_RED_PACKET where id = #{id}
-    </select>
-    <!-- 扣减红包库存 -->
-    <update id="decreaseRedPacket" parameterType="long">
-        update T_RED_PACKET set stock = stock - 1 where id = #{id}
-    </update>
+<mapper namespace="com.learn.ssm.chapter22.dao.UserRedPacketDao">
+    <!-- 插入红包具体信息 -->
+    <insert id="grapRedPacket" useGeneratedKeys="true"
+        keyProperty="id" parameterType="com.learn.ssm.chapter22.pojo.UserRedPacket">
+        insert into T_USER_RED_PACKET(red_packet_id, user_id , amount, grab_time, note)
+        values(#{redPacketId}, #{userId}, #{amount}, now(), #{note})
+    </insert>
+
 </mapper>
