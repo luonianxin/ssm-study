@@ -27,6 +27,11 @@ public class RedPacketServiceImpl implements RedPacketService {
         return redPacketDao.getRedPacket(id);
     }
 
+    @Override
+    public RedPacket getRedPacketForUpdate(Long id) {
+        return redPacketDao.getRedPacketForUpdate(id);
+    }
+
     /**
      * 扣减红包
      *

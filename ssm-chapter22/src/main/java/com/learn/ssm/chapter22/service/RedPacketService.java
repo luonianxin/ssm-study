@@ -13,6 +13,13 @@ public interface RedPacketService {
     RedPacket getRedPacket(Long id);
 
     /**
+     * 　获取红包
+     * @param id　编号
+     * @return 红包信息
+     */
+    RedPacket getRedPacketForUpdate(Long id);
+
+    /**
      *  扣减红包
      * @param id　编号
      * @return 影响条数
