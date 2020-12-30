@@ -70,4 +70,14 @@ public class UserRedPacketController {
         retMap.put("message",flag? "grep RedPacket success":"grep RedPacket faild");
         return retMap;
     }
+    @ResponseBody
+    @RequestMapping("/grapRedPacketByRedis")
+    public Map<String,Object> grapRedPacketByRedis(Long redPacketId, Long userId){
+        Long result = userRedPacketService.grapRedPacketByRedis(redPacketId,userId);
+        Map<String,Object> retMap = new HashMap<String,Object>();
+        boolean flag = result>0;
+        retMap.put("success",flag);
+        retMap.put("message",flag? "grep RedPacket success":"grep RedPacket faild");
+        return retMap;
+    }
 }

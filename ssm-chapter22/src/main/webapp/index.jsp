@@ -3,7 +3,7 @@
 <html>
   <head>
     <title>抢红包高并发</title>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.js">
+    <script type="text/javascript" src="<%= request.getContextPath()%>/static/js/jquery-3.5.1.min.js">
 
     </script>
   </head>

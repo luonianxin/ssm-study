@@ -38,4 +38,17 @@ public interface UserRedPacketService {
      */
     int grapRedPacketForVersionRepeatForFrequency(Long redPacketId,Long userId);
 
+    /**
+     * 　通过Redis实现抢红包
+     * @param redPacketId 红包ｉｄ
+     * @param userId　用户ｉｄ
+     * @return  0-没有库存，失败
+     *          1--成功，且不是最后一个红包
+     *          2-- 成功，且是最后一个红包
+     */
+
+    Long grapRedPacketByRedis(Long redPacketId,Long userId);
+
+
+
 }

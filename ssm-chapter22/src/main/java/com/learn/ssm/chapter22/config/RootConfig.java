@@ -9,12 +9,18 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
+import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.serializer.JdkSerializationRedisSerializer;
+import org.springframework.data.redis.serializer.RedisSerializer;
+import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.transaction.annotation.TransactionManagementConfigurer;
+import redis.clients.jedis.JedisPoolConfig;
 
 import javax.sql.DataSource;
 import java.util.Properties;
@@ -84,5 +90,39 @@ public class RootConfig implements TransactionManagementConfigurer {
         DataSourceTransactionManager transactionManager = new DataSourceTransactionManager();
         transactionManager.setDataSource(initDataSource());
         return transactionManager;
+    }
+
+    @Bean(name = "redisTemplate")
+    public RedisTemplate initRedisTemplate(){
+        JedisPoolConfig poolConfig = new JedisPoolConfig();
+        // 设置最大空闲数
+        poolConfig.setMaxIdle(50);
+        //　设置最大连接数
+        poolConfig.setMaxTotal(100);
+        //　设置最大等待毫秒数
+        poolConfig.setMaxWaitMillis(20000);
+
+        JedisConnectionFactory connectionFactory = new JedisConnectionFactory(poolConfig);
+        connectionFactory.setHostName("localhost");
+        connectionFactory.setPort(16379);
+        connectionFactory.setPassword("kongoking");
+        // 调用初始化后方法,没有将抛出异常
+        connectionFactory.afterPropertiesSet();
+
+        // 自定义序列化器
+        RedisSerializer jdkSerializationRedisSerializer = new JdkSerializationRedisSerializer();
+        RedisSerializer stringRedisSerializer = new StringRedisSerializer();
+
+        //定义redisTemplate 设置连接工厂
+        RedisTemplate redisTemplate = new RedisTemplate();
+        redisTemplate.setConnectionFactory(connectionFactory);
+        // 设置序列化器
+        redisTemplate.setDefaultSerializer(stringRedisSerializer);
+        redisTemplate.setKeySerializer(stringRedisSerializer);
+        redisTemplate.setValueSerializer(stringRedisSerializer);
+        redisTemplate.setHashKeySerializer(stringRedisSerializer);
+        redisTemplate.setHashValueSerializer(stringRedisSerializer);
+        return redisTemplate;
+
     }
 }
