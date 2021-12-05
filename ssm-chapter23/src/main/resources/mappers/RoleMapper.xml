@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.learn.ssm.chapter23.dao.RoleMapper">
+    <insert id="insertRole" parameterType="role" useGeneratedKeys="true" keyProperty="id">
+        insert into t_role(role_name,note) values(#{roleName},#{note})
+    </insert>
+    <update id="updateRole" parameterType="role">
+        update t_role set role_name =#{roleName},note=#{note}
+        where id = #{id}
+    </update>
+    <delete id="deleteRoleById">
+        delete from t_role where id = #{id}
+    </delete>
+    <!-- 插入红包具体信息 -->
+
+    <select id="getRoleById" resultType="com.learn.ssm.chapter23.pojo.Role">
+        select id,role_name as roleName,note from t_role where id = #{id}
+    </select>
+    <select id="findRoles" resultType="com.learn.ssm.chapter23.pojo.Role">
+        select id,role_name as roleName,note from t_role where
+        <where>
+            <if test="roleName!=null and roleName !=''">
+                role_name like concat("%",#{roleName},"%")
+            </if>
+            <if test="note != null">
+                note like concat("%",#{note},"%")
+            </if>
+        </where>
+    </select>
+</mapper>

@@ -3,8 +3,10 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+    <typeAliases>
+        <package name ="com.learn.ssm.chapter23.pojo"/>
+    </typeAliases>
     <mappers>
-        <mapper resource="com/learn/ssm/chapter22/dao/mapper/RedPacket.xml"/>
-        <mapper resource="com/learn/ssm/chapter22/dao/mapper/UserRedPacket.xml"/>
+        <mapper resource="mappers/RoleMapper.xml"/>
     </mappers>
 </configuration>
