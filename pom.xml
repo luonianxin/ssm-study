@@ -32,6 +32,7 @@
         <module>ssm-chapter20</module>
         <module>ssm-chapter21</module>
         <module>ssm-chapter22</module>
+        <module>ssm-chapter23</module>
     </modules>
 <!--    <build>-->
 <!--        <plugins>-->
